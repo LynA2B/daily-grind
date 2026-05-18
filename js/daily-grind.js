@@ -84,14 +84,14 @@ switch(myDay){
  	break;
 
     case 4:
-   	    today = "Tuesday";
+   	    today = "Thursday";
         coffee = {
-            name:"Bubble Tea",
-            pic:"bubble-tea.jpg",
-            alt:"A pic of a yummg bubble tea.",
-            color:"pink",
-            day:"Tuesday",
-            desc:`I like me some Bubble Tea!`,
+            name:"Mocha",
+            pic:"mocha.jpg",
+            alt:"A rich chocolate mocha.",
+            color:"chocolate",
+            day:"Thursday",
+            desc:`Chocolate and espresso to power your through Thursday.`,
         };
  	break;
 
