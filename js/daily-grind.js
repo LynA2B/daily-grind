@@ -95,6 +95,30 @@ switch(myDay){
         };
  	break;
 
+    case 5:
+   	    today = "Friday";
+        coffee = {
+            name:"Drip Coffee",
+            pic:"drip.jpg",
+            alt:"A classic drip coffee.",
+            color:"saddlebrown",
+            day:"Friday",
+            desc:`Simple, reliable, and perfect for Friday.`,
+        };
+ 	break;
+
+    case 6:
+   	    today = "Saturday";
+        coffee = {
+            name:"Frappaccino",
+            pic:"frappaccino.jpg",
+            alt:"A sweet frappaccino treat.",
+            color:"plum",
+            day:"Saturday",
+            desc:`A fun weekend drink to celebrate Saturday!.`,
+        };
+ 	break;
+
 
  	default:
     	today = "Something went wrong!";
