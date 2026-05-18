@@ -39,15 +39,15 @@ switch(myDay){
     	today =  "Sunday";
  	break;
 
-    case 2:
-   	    today = "Tuesday";
+    case 1:
+   	    today = "Monday";
         coffee = {
-            name:"Bubble Tea",
-            pic:"bubble-tea.jpg",
-            alt:"A pc of a yummg bubble tea.",
-            color:"pink",
-            day:"Tuesday",
-            desc:`I like me some Bubble Tea!`,
+            name:"Pumpkin Spice Latte",
+            pic:"pumpking-spice-latte.jpg",
+            alt:"A pumpkin spice latte on a fall morning.",
+            color:"orange",
+            day:"Monday",
+            desc:`A cozy classic to kick off your week.`,
         };
  	break;
 
@@ -57,7 +57,7 @@ switch(myDay){
         coffee = {
             name:"Bubble Tea",
             pic:"bubble-tea.jpg",
-            alt:"A pc of a yummg bubble tea.",
+            alt:"A pic of a yummg bubble tea.",
             color:"pink",
             day:"Tuesday",
             desc:`I like me some Bubble Tea!`,
