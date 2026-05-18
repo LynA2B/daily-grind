@@ -18,12 +18,39 @@
 let myDate = new Date();
 let myDay = myDate.getDay();
 let today = "";
+let coffee = {};
 
+// Query String Support
+let queryString = window.location.search;
+let urlParams = new URLSearchParams(queryString);
+
+//override day if ?day= is present
+if(urlParams.has("days")){
+    myDay = urlParams.get("day");
+}
+
+//convert to number
+myDay = parseInt(myDay);
+
+//switch for all 7 days
 switch(myDay){
 
  	case 0:
     	today =  "Sunday";
  	break;
+
+    case 2:
+   	    today = "Tuesday";
+        coffee = {
+            name:"Bubble Tea",
+            pic:"bubble-tea.jpg",
+            alt:"A pc of a yummg bubble tea.",
+            color:"pink",
+            day:"Tuesday",
+            desc:`I like me some Bubble Tea!`,
+        };
+ 	break;
+
 
  	case 2:
    	    today = "Tuesday";
