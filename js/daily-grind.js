@@ -59,8 +59,31 @@ switch(myDay){
         };
  	break;
 
-
  	case 2:
+   	    today = "Tuesday";
+        coffee = {
+            name:"Bubble Tea",
+            pic:"bubble-tea.jpg",
+            alt:"A refreshing cup of bubble tea.",
+            color:"pink",
+            day:"Tuesday",
+            desc:`A fun and sweet treat for your Tuesday!`,
+        };
+ 	break;
+
+    case 3:
+   	    today = "Wednesday";
+        coffee = {
+            name:"Cold Brew",
+            pic:"cold-brew.jpg",
+            alt:"A smooth cold brew coffee.",
+            color:"steelblue",
+            day:"Wednesday",
+            desc:`Bold, smooth, and perfect for mid-week energy.`,
+        };
+ 	break;
+
+    case 4:
    	    today = "Tuesday";
         coffee = {
             name:"Bubble Tea",
