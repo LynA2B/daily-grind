@@ -37,6 +37,14 @@ switch(myDay){
 
  	case 0:
     	today =  "Sunday";
+        coffee = {
+            name:"Caramel Latte",
+            pic:"caramel-latte.jpg",
+            alt:"A warm caramel latte.",
+            color:"goldenrod",
+            day:"Sunday",
+            desc:`A sweet start to your Sunday!`,
+        };
  	break;
 
     case 1:
@@ -63,6 +71,7 @@ switch(myDay){
             desc:`I like me some Bubble Tea!`,
         };
  	break;
+
 
  	default:
     	today = "Something went wrong!";
