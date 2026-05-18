@@ -25,7 +25,7 @@ let queryString = window.location.search;
 let urlParams = new URLSearchParams(queryString);
 
 //override day if ?day= is present
-if(urlParams.has("days")){
+if(urlParams.has("day")){
     myDay = urlParams.get("day");
 }
 
@@ -91,7 +91,7 @@ switch(myDay){
             alt:"A rich chocolate mocha.",
             color:"chocolate",
             day:"Thursday",
-            desc:`Chocolate and espresso to power your through Thursday.`,
+            desc:`Chocolate and espresso to power you through Thursday.`,
         };
  	break;
 
@@ -115,7 +115,7 @@ switch(myDay){
             alt:"A sweet frappaccino treat.",
             color:"plum",
             day:"Saturday",
-            desc:`A fun weekend drink to celebrate Saturday!.`,
+            desc:`A fun weekend drink to celebrate Saturday!`,
         };
  	break;
 
@@ -127,7 +127,7 @@ switch(myDay){
 
 console.log(coffee)
 
-alert(coffeeTemplate(coffee));
+// alert(coffeeTemplate(coffee));
 
 //adds coffee to page?
 document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
